@@ -1,0 +1,61 @@
+.banner-container {
+  height: 100%;
+  padding: 1.5rem;
+  color: white;
+  background-color: rgba(90,90,160,0.3);
+  display: flex;
+}
+
+.inner-container {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+
+.portrait {
+  display: block;
+  width: 200px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.name {
+  font-size: 2rem;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  align-self: baseline;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  margin: 1rem 0;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.logo-container {
+  width: 100%;
+  display: flex;
+  color: white;
+  margin-top: 1rem;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
