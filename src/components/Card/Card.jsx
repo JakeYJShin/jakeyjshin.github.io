@@ -9,7 +9,7 @@ const Card = (props) => {
       <div className="card-container">
         <div className="card-title">{cardTitle}</div>
         <div className="img-container">
-          <img className="card-logo" src={cardImg} />
+          <img className="card-logo" alt={`${cardTitle} logo`} src={cardImg} />
         </div>
       </div>
       <div className="card-info">
