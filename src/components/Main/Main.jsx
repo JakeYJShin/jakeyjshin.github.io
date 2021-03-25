@@ -9,6 +9,8 @@ import portrait from "src/images/pic.png"
 
 const Main = ({selected, setSelect}) => {
   const handleSelcted = (display) => setSelect(display)
+  const isBrowser = typeof window !== "undefined"
+  if (!isBrowser) return
   const [width, setWidth] = React.useState(window.innerWidth)
   const breakpoint = 780
 
