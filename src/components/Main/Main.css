@@ -2,7 +2,7 @@
   height: 100%;
   padding: 1.5rem;
   color: white;
-  background-color: rgba(90,90,160,0.3);
+  background-color: rgba(90,90,160,0.4);
   display: flex;
 }
 
@@ -47,6 +47,11 @@
   cursor: pointer;
 }
 
+.resume-link {
+  display: flex;
+  align-items: center;
+}
+
 .logo-container {
   width: 100%;
   display: flex;
@@ -58,4 +63,20 @@
   color: white;
   font-size: 1.5rem;
   margin-right: 1rem;
+}
+
+.selected {
+  font-weight: bold;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: bold;;
+  margin: 1.5rem 0;
+}
+
+@media only screen and (max-width: 780px) {
+  .logo {
+    font-size: 2rem;
+  }
 }
