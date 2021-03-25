@@ -1,9 +1,0 @@
-.portfolio-container {
-  background: rgba(90,90,160,0.3);
-  height: 100%;
-  color: white;
-  padding: 3rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
